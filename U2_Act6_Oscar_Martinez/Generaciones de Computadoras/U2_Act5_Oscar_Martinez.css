@@ -1,0 +1,52 @@
+head{
+    font-family: arial;
+    font-size: 16px;
+}
+body{
+    font-family: arial;
+    font-size: 14px;
+    color: whitesmoke;
+    background-color: black;
+    background-image: url("dio.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.lista{
+    background-color: black;
+}
+
+p.izquierda{
+    text-align: right;
+}
+
+
+
+p.negritas{
+    font-weight: 700;
+    text-align: right;
+}
+
+p.negritasd{
+    font-weight: 700;
+    text-align: left;
+    background-color: black;
+}
+
+h1{color: white;
+}
+
+table{   
+    font-family: arial;
+    background-color: black;
+    font-size: 16px;
+}
+p.negritasc{
+    font-weight: 700;
+    text-align: center;
+    background-color: black;
+}
+h2.Derecha{
+    text-align: right;
+}

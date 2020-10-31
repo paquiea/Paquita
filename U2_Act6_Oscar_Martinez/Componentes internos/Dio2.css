@@ -1,0 +1,31 @@
+body{
+    font-family: arial;
+    font-size: 14px;
+    color: whitesmoke;
+    background-color: black;
+    background-image: url("dio2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+p.negritasi{
+    font-weight: 700;
+    text-align: left;
+}
+
+p.negritasd{
+    font-weight: 700;
+    text-align: right;
+}
+
+p.negritasc{
+    font-weight: 700;
+    text-align: center;
+}
+
+h1{color: white;
+}
+h2.Derecha{
+    text-align: left;
+}

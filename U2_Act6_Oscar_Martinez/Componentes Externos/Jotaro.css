@@ -1,0 +1,19 @@
+body{
+    font-family: arial;
+    font-size: 14px;
+    color: darkslategrey;
+    background-color: black;
+    background-image: url("Jotaro.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+p.negritas{
+    font-weight: 700;
+    text-align: left;
+}
+
+h2.Derecha{
+    text-align: left;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+        
+        
+    <head>
+        <title>formulario</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="Int2_Oscar_Martinez.css">
+        <script src="Int2_Oscar_Martinez.js"></script>
+        <h2 class="Derecha"><a href="../Index.html">Volver</a></h2>
+        
+     </head>
+
+    <body>
+<center><img src="dio da.jpg" onload="PaginaCargada()" onclick="dioda()">
+<p id="dioda" ></p>
+
+</center>
+<div>
+    
+    <form action="mailto:djjunior180@gmail.com" method="POST" enctype="text/plain" class="formulario" onsubmit="enviar()">
+    <h1 class="formulario__titulo" id="doble" ondblclick="doble()">Clickeame 2 veces</h1>
+
+       
+      <input type="text" name="nombre" id="nombre"  class="formulario__input" placeholder="Nombres" maxlength="20" required> 
+
+      <input type="text" name="AP" id="AP" class="formulario__input" placeholder="Apellido Paterno" maxlength="20" required>
+ 
+      <input type="text" name="AM" id="AM" class="formulario__input" placeholder="Apellido Materno" maxlength="20" required> 
+
+      <input type="text" name="Edad" id="Edad" class="formulario__input" placeholder="Edad" maxlength="3" required> 
+ 
+      <input type="text" name="Telefono" id="Telefono" class="formulario__input" placeholder="Telefono" maxlength="10" required> 
+
+      <input type="submit" name="boton" id="boton" class="formulario__submit" >
+      <input type="reset" name="reset" id="reset" class="formulario__submit">
+    </form>
+</div>
+
+<input type="text" value="No copees este mensaje" onselect="copea()"onfocus="foco(this)">
+
+
+    <form action="" class="formulario">
+
+    <div class="pregunta"><p id="preg1" onmousedown="Abajo()" onmouseup="Arriba()">1.-periférico de entrada o dispositivo, que utiliza una disposición de botones o teclas, para que actúen como palancas
+        mecánicas o interruptores electrónicos que envían información a la computadora.</p><br /><br>
+        <input class="resp1" type="checkbox" name="preg1"  /> Monitor<br />
+        <input class="resp2"type="checkbox" name="preg1"  /> Bocinas<br />
+        <input class="resp2"type="checkbox" name="preg1"  /> Mouse<br />
+        <input class="resp2"type="checkbox" name="preg1"  /> Teclado<br />
+      </div>
+
+      <div class="pregunta" onselect="select()">2.-se encarga de analizar absolutamente toda la información
+        que pasa por él en forma de unos y ceros.<br /><br>
+        <input class="resp1" type="checkbox" name="preg1"  /> Memoria RAM<br />
+        <input class="resp2"type="checkbox" name="preg1"  /> Disco Duro<br />
+        <input class="resp1" type="checkbox" name="preg1"  /> Procesador<br />
+        <input class="resp1" type="checkbox" name="preg1"  /> Disipador<br />
+      </div>
+
+      <div class="pregunta">3.-¿En que generacion de computadoras empezaron a usarse los transistores?<br /><br>
+        <input class="resp1" type="checkbox" name="preg1"  /> Primera<br />
+        <input class="resp2"type="checkbox" name="preg1"  /> Tercera<br />
+        <input class="resp1" type="checkbox" name="preg1"  /> Quinta<br />
+        <input class="resp1" type="checkbox" name="preg1"  /> Segunda<br />
+      </div>
+
+      <div class="pregunta">4.-armazón del equipo que contiene los componentes de la pc<br /><br>
+        <input class="resp1" type="checkbox" name="preg1"  /> Mouse<br />
+        <input class="resp2"type="checkbox" name="preg1"  /> Bocinas<br />
+        <input class="resp1" type="checkbox" name="preg1"  /> Monitor<br />
+        <input class="resp1" type="checkbox" name="preg1"  /> Gabinete<br />
+      </div>
+
+      <div class="pregunta">5.- dispositivo que proporciona corriente eléctrica a los elementos electrónicos que constituyen nuestro
+        ordenador.<br /><br>
+        <input class="resp1" type="checkbox" name="preg1"  /> Fuente de Poder<br />
+        <input class="resp2"type="checkbox" name="preg1"  /> Procesador<br />
+        <input class="resp1" type="checkbox" name="preg1"  /> Tarjeta Grafica<br />
+        <input class="resp1" type="checkbox" name="preg1"  /> Placa Base<br />
+      </div>
+
+      <input type="submit" value="Enviar" id="Enviar" name="Enviar" class="formulario__submit"  onmouseover="cambiarcolor2()" onmouseout="cambiarcolor()" >
+</form>
+
+    </body>
+        
+</html>
